@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OSSim": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}
