@@ -1,0 +1,108 @@
+Greedy Trials
+trial=  1 lionfish culled=  73
+trial=  2 lionfish culled=  76
+trial=  3 lionfish culled=  71
+trial=  4 lionfish culled=  72
+trial=  5 lionfish culled=  73
+trial=  6 lionfish culled=  65
+trial=  7 lionfish culled=  70
+trial=  8 lionfish culled=  76
+trial=  9 lionfish culled=  71
+trial= 10 lionfish culled=  76
+trial= 11 lionfish culled=  74
+trial= 12 lionfish culled=  73
+trial= 13 lionfish culled=  71
+trial= 14 lionfish culled=  73
+trial= 15 lionfish culled=  73
+trial= 16 lionfish culled=  70
+trial= 17 lionfish culled=  70
+trial= 18 lionfish culled=  71
+trial= 19 lionfish culled=  69
+trial= 20 lionfish culled=  72
+trial= 21 lionfish culled=  75
+trial= 22 lionfish culled=  71
+trial= 23 lionfish culled=  71
+trial= 24 lionfish culled=  74
+trial= 25 lionfish culled=  74
+trial= 26 lionfish culled=  75
+trial= 27 lionfish culled=  73
+trial= 28 lionfish culled=  70
+trial= 29 lionfish culled=  76
+trial= 30 lionfish culled=  74
+Hill Climb Trials
+trial=  1 lionfish culled=  62
+trial=  2 lionfish culled=  61
+trial=  3 lionfish culled=  61
+trial=  4 lionfish culled=  63
+trial=  5 lionfish culled=  63
+trial=  6 lionfish culled=  63
+trial=  7 lionfish culled=  61
+trial=  8 lionfish culled=  62
+trial=  9 lionfish culled=  63
+trial= 10 lionfish culled=  63
+trial= 11 lionfish culled=  62
+trial= 12 lionfish culled=  61
+trial= 13 lionfish culled=  62
+trial= 14 lionfish culled=  63
+trial= 15 lionfish culled=  64
+trial= 16 lionfish culled=  62
+trial= 17 lionfish culled=  65
+trial= 18 lionfish culled=  61
+trial= 19 lionfish culled=  64
+trial= 20 lionfish culled=  61
+trial= 21 lionfish culled=  64
+trial= 22 lionfish culled=  62
+trial= 23 lionfish culled=  62
+trial= 24 lionfish culled=  62
+trial= 25 lionfish culled=  61
+trial= 26 lionfish culled=  63
+trial= 27 lionfish culled=  63
+trial= 28 lionfish culled=  64
+trial= 29 lionfish culled=  63
+trial= 30 lionfish culled=  61
+Greedy Hill Climb Trials
+trial=  1 lionfish culled=  76
+trial=  2 lionfish culled=  72
+trial=  3 lionfish culled=  72
+trial=  4 lionfish culled=  74
+trial=  5 lionfish culled=  70
+trial=  6 lionfish culled=  72
+trial=  7 lionfish culled=  70
+trial=  8 lionfish culled=  71
+trial=  9 lionfish culled=  71
+trial= 10 lionfish culled=  71
+trial= 11 lionfish culled=  73
+trial= 12 lionfish culled=  72
+trial= 13 lionfish culled=  71
+trial= 14 lionfish culled=  73
+trial= 15 lionfish culled=  73
+trial= 16 lionfish culled=  76
+trial= 17 lionfish culled=  72
+trial= 18 lionfish culled=  74
+trial= 19 lionfish culled=  73
+trial= 20 lionfish culled=  71
+trial= 21 lionfish culled=  74
+trial= 22 lionfish culled=  74
+trial= 23 lionfish culled=  74
+trial= 24 lionfish culled=  69
+trial= 25 lionfish culled=  74
+trial= 26 lionfish culled=  74
+trial= 27 lionfish culled=  72
+trial= 28 lionfish culled=  68
+trial= 29 lionfish culled=  72
+trial= 30 lionfish culled=  71
+greedy culled mean=				    72.40
+greedy culled sd=  				     2.44
+greedy culled ci lower=			    71.49
+greedy culled ci upper=			    73.31
+
+hill climb culled mean=			    62.40
+hill climb culled sd=  			     1.11
+hill climb culled ci lower=			    61.98
+hill climb culled ci upper=			    62.82
+
+greedy hill climb culled mean=		    72.30
+greedy hill climb culled sd=  		     1.83
+greedy hill climb culled ci lower=		    71.62
+greedy hill climb culled ci upper=		    72.98
+Times Greedy hill climb improved greedy= 	        2
