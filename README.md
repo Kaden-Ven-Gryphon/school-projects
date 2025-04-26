@@ -5,6 +5,14 @@ This is a collection of some of the projects I did for school durning my masters
 
 This is a collection of discrete event simulation programming assignments written in C.
 
+## Dart Premier League
+
+Final project for my bachelors degree.  Group project making a dart gaming managing and scoring app in C++ and QT.
+
+## Guitar App
+
+A computer vision project that uses opencv with python to track your hands and a guitar and display where to put your fingers for each chord.
+
 ## Heat Transfer Sim
 
 This is a math based simulation of heat moving through a 1d, and 2d medium, it is written in C and uses my C image making library to create visualizations.
