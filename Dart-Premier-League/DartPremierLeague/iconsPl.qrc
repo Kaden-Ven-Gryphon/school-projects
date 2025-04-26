@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/iconsPl">
+        <file>dart.svg</file>
+        <file>redYellowDart.svg</file>
+        <file>section.svg</file>
+    </qresource>
+</RCC>

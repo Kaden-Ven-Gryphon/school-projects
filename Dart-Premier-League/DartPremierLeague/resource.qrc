@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>dart.svg</file>
+        <file>section.svg</file>
+        <file>redYellowDart.svg</file>
+        <file>dartboard.png</file>
+        <file>newDart.png</file>
+        <file>clipArtDB.png</file>
+        <file>newDart1.png</file>
+    </qresource>
+</RCC>
