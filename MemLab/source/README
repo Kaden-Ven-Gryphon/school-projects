@@ -1,0 +1,21 @@
+/****************************************************
+*
+*	Kaden Gryphon
+*	Lab 1 mymalloc
+*	09.15.2023
+*	CS 690-01
+*	Commands to build and test mymalloc
+*
+****************************************************/
+
+# to build the archive and compile the test program
+make
+
+# to run the test program
+./tester
+
+# to change the heap size or enable debug messages 8192 can be replaced with the desired size of the heap
+make DEBUGFLAGS='-D _DEBUG_MESSAGES' CONFIGDEF='-D HEAP_SIZE_OVERRIDE=8192'
+
+# to clean object files, sometimes nessisary to change debug or heapsize setting
+make clean
