@@ -1,0 +1,4161 @@
+
+--- START OF DISTRIBUTION TESTS ---
+
+--- START OF NORMAL DISTRIBUTION TEST ---
+Expected mean and standard deviation: 7.000000, 4.000000
+
+- histogram -
+  -8
+  -7
+  -6
+  -5
+  -4
+  -3
+  -2
+  -1
+   0####
+   1###
+   2#####
+   3######
+   4########
+   5#########
+   6#########
+   7#########
+   8#########
+   9#######
+  10######
+  11#####
+  12###
+  13##
+  14#
+  15#
+  16
+  17
+  18
+  19
+  20
+  21
+
+
+Expected Mean: 7.000000
+Sample Mean: 6.978734
+Expected Standard Deviation: 4.000000
+Sample Standard Deviation: 3.993921
+
+Mean and Standard Diviation: OK
+
+--- END OF NORMAL DISTRIBUTION TEST ---
+
+--- START OF EXPONENTIAL DISTRIBUTION TEST ---
+Lambda and Expected mean : 0.700000, 1.428571
+
+- histogram -
+   0###################################################
+   1########################
+   2############
+   3######
+   4##
+   5#
+   6
+   7
+   8
+   9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+
+
+Expected Mean: 1.428571
+Sample Mean: 1.396256
+Mean/Lambda: OK
+
+--- END OF EXPONENTIAL DISTRIBUTION TEST ---
+
+--- START OF EMPIRICAL DISCRETE TEST ---
+test table:
+Cumulative Prob, Result
+      0.10,       1.00
+      0.40,       2.00
+      0.45,       3.00
+      0.65,       4.00
+      0.80,       5.00
+      0.81,       6.00
+      1.00,       7.00
+Expected Histo
+ 1.00 ##########
+ 2.00 ##############################
+ 3.00 ####
+ 4.00 ####################
+ 5.00 ###############
+ 6.00 #
+ 7.00 ##################
+Actual Histo
+ 1.00 #########
+ 2.00 ##############################
+ 3.00 ####
+ 4.00 ####################
+ 5.00 ##############
+ 6.00 
+ 7.00 ##################
+EMPIRICAL DISCRETE: OK
+
+--- END OF EMPIRICAL DISCRETE TEST ---
+
+
+
+--- SUMMARY ---
+
+Test 1: OK
+Test 2: OK
+Test 3: OK
+All: OK
+
+--- END OF DISTRIBUTION TESTS ---
+
+
+--- START TEST 1 ---
+
+Implmentation: Min Heap
+
+Insert | type: a, time: 86.73
+Insert | type: a, time: 0.94
+Insert | type: a, time: 48.85
+Insert | type: a, time: 93.20
+Insert | type: a, time: 47.42
+Insert | type: d, time: 102.84
+Insert | type: a, time: 38.81
+Insert | type: a, time: 79.42
+Insert | type: a, time: 53.19
+Insert | type: d, time: 47.79
+Insert | type: a, time: 56.86
+Insert | type: d, time: 39.43
+Insert | type: a, time: 34.98
+Insert | type: a, time: 9.37
+Insert | type: a, time: 38.28
+Insert | type: a, time: 62.48
+Insert | type: a, time: 42.93
+Insert | type: d, time: 40.43
+Insert | type: d, time: 38.37
+Insert | type: a, time: 36.19
+Insert | type: d, time: 59.13
+Insert | type: d, time: 89.38
+Insert | type: a, time: 78.49
+Insert | type: a, time: 80.64
+Insert | type: d, time: 83.59
+Insert | type: a, time: 47.51
+Insert | type: a, time: 83.28
+Insert | type: a, time: 69.38
+Insert | type: d, time: 69.49
+Insert | type: d, time: 56.71
+Insert | type: d, time: 102.70
+Insert | type: d, time: 2.96
+Insert | type: d, time: 9.88
+Insert | type: a, time: 57.01
+Insert | type: d, time: 15.82
+Insert | type: d, time: 37.46
+Insert | type: d, time: 80.50
+Insert | type: d, time: 66.66
+Insert | type: d, time: 31.76
+Insert | type: a, time: 61.52
+Insert | type: a, time: 28.52
+Insert | type: a, time: 73.68
+Insert | type: d, time: 54.16
+Insert | type: a, time: 85.25
+Insert | type: a, time: 69.97
+Insert | type: a, time: 69.69
+Insert | type: a, time: 68.52
+Insert | type: a, time: 36.37
+Insert | type: a, time: 39.66
+Insert | type: a, time: 37.73
+Insert | type: d, time: 60.09
+Insert | type: d, time: 37.32
+Insert | type: a, time: 77.24
+Insert | type: a, time: 16.14
+Insert | type: a, time: 66.31
+Insert | type: a, time: 21.50
+Insert | type: d, time: 65.41
+Insert | type: a, time: 9.34
+Insert | type: a, time: 56.01
+Insert | type: d, time: 44.56
+Insert | type: d, time: 29.08
+Insert | type: d, time: 36.62
+Insert | type: a, time: 61.77
+Insert | type: d, time: 13.76
+Insert | type: a, time: 18.97
+Insert | type: a, time: 71.58
+Insert | type: d, time: 27.94
+Insert | type: a, time: 79.00
+Insert | type: d, time: 98.18
+Insert | type: d, time: 79.51
+Insert | type: a, time: 37.63
+Insert | type: a, time: 36.08
+Insert | type: d, time: 90.94
+Insert | type: a, time: 42.98
+Insert | type: d, time: 11.62
+Insert | type: a, time: 41.31
+Insert | type: d, time: 71.84
+Insert | type: a, time: 66.12
+Insert | type: d, time: 39.49
+Insert | type: d, time: 46.19
+Insert | type: a, time: 2.51
+Insert | type: d, time: 3.49
+Insert | type: d, time: 78.34
+Insert | type: a, time: 31.70
+Insert | type: a, time: 51.56
+Insert | type: a, time: 62.51
+Insert | type: d, time: 41.52
+Insert | type: d, time: 82.54
+Insert | type: a, time: 32.58
+Insert | type: d, time: 64.16
+Insert | type: a, time: 55.56
+Insert | type: d, time: 46.29
+Insert | type: d, time: 48.91
+Insert | type: a, time: 23.17
+Insert | type: d, time: 29.88
+Insert | type: d, time: 54.19
+Insert | type: a, time: 84.52
+Insert | type: a, time: 89.01
+Insert | type: d, time: 53.23
+Insert | type: a, time: 54.57
+
+
+- Print FEL -
+Length: 100
+
+Event    0 | Type: a, Time 0.94
+Event    1 | Type: a, Time 2.51
+Event    2 | Type: d, Time 2.96
+Event    3 | Type: d, Time 3.49
+Event    4 | Type: a, Time 9.34
+Event    5 | Type: a, Time 9.37
+Event    6 | Type: d, Time 9.88
+Event    7 | Type: d, Time 11.62
+Event    8 | Type: d, Time 13.76
+Event    9 | Type: d, Time 15.82
+Event   10 | Type: a, Time 16.14
+Event   11 | Type: a, Time 18.97
+Event   12 | Type: a, Time 21.50
+Event   13 | Type: a, Time 23.17
+Event   14 | Type: d, Time 27.94
+Event   15 | Type: a, Time 28.52
+Event   16 | Type: d, Time 29.08
+Event   17 | Type: d, Time 29.88
+Event   18 | Type: a, Time 31.70
+Event   19 | Type: d, Time 31.76
+Event   20 | Type: a, Time 32.58
+Event   21 | Type: a, Time 34.98
+Event   22 | Type: a, Time 36.08
+Event   23 | Type: a, Time 36.19
+Event   24 | Type: a, Time 36.37
+Event   25 | Type: d, Time 36.62
+Event   26 | Type: d, Time 37.32
+Event   27 | Type: d, Time 37.46
+Event   28 | Type: a, Time 37.63
+Event   29 | Type: a, Time 37.73
+Event   30 | Type: a, Time 38.28
+Event   31 | Type: d, Time 38.37
+Event   32 | Type: a, Time 38.81
+Event   33 | Type: d, Time 39.43
+Event   34 | Type: d, Time 39.49
+Event   35 | Type: a, Time 39.66
+Event   36 | Type: d, Time 40.43
+Event   37 | Type: a, Time 41.31
+Event   38 | Type: d, Time 41.52
+Event   39 | Type: a, Time 42.93
+Event   40 | Type: a, Time 42.98
+Event   41 | Type: d, Time 44.56
+Event   42 | Type: d, Time 46.19
+Event   43 | Type: d, Time 46.29
+Event   44 | Type: a, Time 47.42
+Event   45 | Type: a, Time 47.51
+Event   46 | Type: d, Time 47.79
+Event   47 | Type: a, Time 48.85
+Event   48 | Type: d, Time 48.91
+Event   49 | Type: a, Time 51.56
+Event   50 | Type: a, Time 53.19
+Event   51 | Type: d, Time 53.23
+Event   52 | Type: d, Time 54.16
+Event   53 | Type: d, Time 54.19
+Event   54 | Type: a, Time 54.57
+Event   55 | Type: a, Time 55.56
+Event   56 | Type: a, Time 56.01
+Event   57 | Type: d, Time 56.71
+Event   58 | Type: a, Time 56.86
+Event   59 | Type: a, Time 57.01
+Event   60 | Type: d, Time 59.13
+Event   61 | Type: d, Time 60.09
+Event   62 | Type: a, Time 61.52
+Event   63 | Type: a, Time 61.77
+Event   64 | Type: a, Time 62.48
+Event   65 | Type: a, Time 62.51
+Event   66 | Type: d, Time 64.16
+Event   67 | Type: d, Time 65.41
+Event   68 | Type: a, Time 66.12
+Event   69 | Type: a, Time 66.31
+Event   70 | Type: d, Time 66.66
+Event   71 | Type: a, Time 68.52
+Event   72 | Type: a, Time 69.38
+Event   73 | Type: d, Time 69.49
+Event   74 | Type: a, Time 69.69
+Event   75 | Type: a, Time 69.97
+Event   76 | Type: a, Time 71.58
+Event   77 | Type: d, Time 71.84
+Event   78 | Type: a, Time 73.68
+Event   79 | Type: a, Time 77.24
+Event   80 | Type: d, Time 78.34
+Event   81 | Type: a, Time 78.49
+Event   82 | Type: a, Time 79.00
+Event   83 | Type: a, Time 79.42
+Event   84 | Type: d, Time 79.51
+Event   85 | Type: d, Time 80.50
+Event   86 | Type: a, Time 80.64
+Event   87 | Type: d, Time 82.54
+Event   88 | Type: a, Time 83.28
+Event   89 | Type: d, Time 83.59
+Event   90 | Type: a, Time 84.52
+Event   91 | Type: a, Time 85.25
+Event   92 | Type: a, Time 86.73
+Event   93 | Type: a, Time 89.01
+Event   94 | Type: d, Time 89.38
+Event   95 | Type: d, Time 90.94
+Event   96 | Type: a, Time 93.20
+Event   97 | Type: d, Time 98.18
+Event   98 | Type: d, Time 102.70
+Event   99 | Type: d, Time 102.84
+
+- End of Print FEL -
+Get Next | type: a, time: 0.94
+Get Next | type: a, time: 2.51
+Get Next | type: d, time: 2.96
+Get Next | type: d, time: 3.49
+Get Next | type: a, time: 9.34
+Get Next | type: a, time: 9.37
+Get Next | type: d, time: 9.88
+Get Next | type: d, time: 11.62
+Get Next | type: d, time: 13.76
+Get Next | type: d, time: 15.82
+Get Next | type: a, time: 16.14
+Get Next | type: a, time: 18.97
+Get Next | type: a, time: 21.50
+Get Next | type: a, time: 23.17
+Get Next | type: d, time: 27.94
+Get Next | type: a, time: 28.52
+Get Next | type: d, time: 29.08
+Get Next | type: d, time: 29.88
+Get Next | type: a, time: 31.70
+Get Next | type: d, time: 31.76
+Get Next | type: a, time: 32.58
+Get Next | type: a, time: 34.98
+Get Next | type: a, time: 36.08
+Get Next | type: a, time: 36.19
+Get Next | type: a, time: 36.37
+Get Next | type: d, time: 36.62
+Get Next | type: d, time: 37.32
+Get Next | type: d, time: 37.46
+Get Next | type: a, time: 37.63
+Get Next | type: a, time: 37.73
+Get Next | type: a, time: 38.28
+Get Next | type: d, time: 38.37
+Get Next | type: a, time: 38.81
+Get Next | type: d, time: 39.43
+Get Next | type: d, time: 39.49
+Get Next | type: a, time: 39.66
+Get Next | type: d, time: 40.43
+Get Next | type: a, time: 41.31
+Get Next | type: d, time: 41.52
+Get Next | type: a, time: 42.93
+Get Next | type: a, time: 42.98
+Get Next | type: d, time: 44.56
+Get Next | type: d, time: 46.19
+Get Next | type: d, time: 46.29
+Get Next | type: a, time: 47.42
+Get Next | type: a, time: 47.51
+Get Next | type: d, time: 47.79
+Get Next | type: a, time: 48.85
+Get Next | type: d, time: 48.91
+Get Next | type: a, time: 51.56
+Get Next | type: a, time: 53.19
+Get Next | type: d, time: 53.23
+Get Next | type: d, time: 54.16
+Get Next | type: d, time: 54.19
+Get Next | type: a, time: 54.57
+Get Next | type: a, time: 55.56
+Get Next | type: a, time: 56.01
+Get Next | type: d, time: 56.71
+Get Next | type: a, time: 56.86
+Get Next | type: a, time: 57.01
+Get Next | type: d, time: 59.13
+Get Next | type: d, time: 60.09
+Get Next | type: a, time: 61.52
+Get Next | type: a, time: 61.77
+Get Next | type: a, time: 62.48
+Get Next | type: a, time: 62.51
+Get Next | type: d, time: 64.16
+Get Next | type: d, time: 65.41
+Get Next | type: a, time: 66.12
+Get Next | type: a, time: 66.31
+Get Next | type: d, time: 66.66
+Get Next | type: a, time: 68.52
+Get Next | type: a, time: 69.38
+Get Next | type: d, time: 69.49
+Get Next | type: a, time: 69.69
+Get Next | type: a, time: 69.97
+Get Next | type: a, time: 71.58
+Get Next | type: d, time: 71.84
+Get Next | type: a, time: 73.68
+Get Next | type: a, time: 77.24
+Get Next | type: d, time: 78.34
+Get Next | type: a, time: 78.49
+Get Next | type: a, time: 79.00
+Get Next | type: a, time: 79.42
+Get Next | type: d, time: 79.51
+Get Next | type: d, time: 80.50
+Get Next | type: a, time: 80.64
+Get Next | type: d, time: 82.54
+Get Next | type: a, time: 83.28
+Get Next | type: d, time: 83.59
+Get Next | type: a, time: 84.52
+Get Next | type: a, time: 85.25
+Get Next | type: a, time: 86.73
+Get Next | type: a, time: 89.01
+Get Next | type: d, time: 89.38
+Get Next | type: d, time: 90.94
+Get Next | type: a, time: 93.20
+Get Next | type: d, time: 98.18
+Get Next | type: d, time: 102.70
+Get Next | type: d, time: 102.84
+
+
+- Print FEL -
+Length: 0
+
+
+- End of Print FEL -
+
+Expected to add 100 events, added 100: OK
+Expected to remove 100 events, removed 100: OK
+Removed in order: OK
+
+
+--- END TEST 1 ---
+
+
+
+--- START TEST 2 ---
+
+Implmentation: Min Heap
+
+Insert | type: a, time: 6.20
+Get Next | type: a, time: 6.20
+Insert | type: d, time: 12.32
+Get Next | type: d, time: 12.32
+Insert | type: d, time: 18.74
+Insert | type: a, time: 18.34
+Insert | type: d, time: 19.62
+Get Next | type: a, time: 18.34
+Insert | type: a, time: 25.09
+Insert | type: d, time: 24.85
+Insert | type: d, time: 22.16
+Insert | type: a, time: 25.10
+Get Next | type: d, time: 18.74
+Insert | type: d, time: 23.62
+Get Next | type: d, time: 19.62
+Get Next | type: d, time: 22.16
+Get Next | type: d, time: 23.62
+Insert | type: d, time: 30.21
+Get Next | type: d, time: 24.85
+Insert | type: a, time: 25.28
+Insert | type: a, time: 28.90
+Get Next | type: a, time: 25.09
+Insert | type: a, time: 28.59
+Get Next | type: a, time: 25.10
+Insert | type: a, time: 33.23
+Get Next | type: a, time: 25.28
+Get Next | type: a, time: 28.59
+Get Next | type: a, time: 28.90
+Insert | type: d, time: 40.19
+Get Next | type: d, time: 30.21
+Insert | type: a, time: 31.15
+Insert | type: d, time: 30.93
+Get Next | type: d, time: 30.93
+Get Next | type: a, time: 31.15
+Get Next | type: a, time: 33.23
+Insert | type: a, time: 38.07
+Insert | type: d, time: 45.72
+Insert | type: d, time: 40.50
+Insert | type: a, time: 34.99
+Get Next | type: a, time: 34.99
+Get Next | type: a, time: 38.07
+Get Next | type: d, time: 40.19
+Get Next | type: d, time: 40.50
+Get Next | type: d, time: 45.72
+Insert | type: d, time: 52.48
+Get Next | type: d, time: 52.48
+Insert | type: d, time: 60.91
+Get Next | type: d, time: 60.91
+Insert | type: a, time: 68.03
+Insert | type: d, time: 65.83
+Get Next | type: d, time: 65.83
+Insert | type: a, time: 71.24
+Insert | type: a, time: 72.25
+Insert | type: a, time: 70.97
+Get Next | type: a, time: 68.03
+Insert | type: a, time: 73.56
+Insert | type: a, time: 77.77
+Insert | type: d, time: 73.27
+Insert | type: d, time: 73.80
+Insert | type: d, time: 74.44
+Get Next | type: a, time: 70.97
+Get Next | type: a, time: 71.24
+Insert | type: a, time: 79.75
+Get Next | type: a, time: 72.25
+Get Next | type: d, time: 73.27
+Get Next | type: a, time: 73.56
+Insert | type: d, time: 75.93
+Insert | type: a, time: 75.00
+Get Next | type: d, time: 73.80
+Get Next | type: d, time: 74.44
+Insert | type: d, time: 79.84
+Get Next | type: a, time: 75.00
+Insert | type: a, time: 81.84
+Get Next | type: d, time: 75.93
+Insert | type: d, time: 82.66
+Insert | type: a, time: 86.74
+Get Next | type: a, time: 77.77
+Get Next | type: a, time: 79.75
+Get Next | type: d, time: 79.84
+Get Next | type: a, time: 81.84
+Insert | type: d, time: 82.12
+Get Next | type: d, time: 82.12
+Get Next | type: d, time: 82.66
+Insert | type: a, time: 88.23
+Get Next | type: a, time: 86.74
+Insert | type: a, time: 93.95
+Insert | type: a, time: 93.67
+Get Next | type: a, time: 88.23
+Insert | type: a, time: 93.09
+Insert | type: a, time: 98.02
+Insert | type: a, time: 91.92
+Insert | type: a, time: 91.54
+Get Next | type: a, time: 91.54
+Insert | type: d, time: 99.07
+Insert | type: d, time: 93.37
+Get Next | type: a, time: 91.92
+Insert | type: d, time: 95.00
+
+- Print FEL -
+Length: 7
+
+Event    0 | Type: a, Time 93.09
+Event    1 | Type: d, Time 93.37
+Event    2 | Type: a, Time 93.67
+Event    3 | Type: a, Time 93.95
+Event    4 | Type: d, Time 95.00
+Event    5 | Type: a, Time 98.02
+Event    6 | Type: d, Time 99.07
+
+- End of Print FEL -
+In Order: OK
+
+
+Inserted:   52, Removed:   45, Length:    7: OK
+
+
+--- END TEST 2 ---
+
+
+
+--- START TEST 3 ---
+
+Implmentation: Min Heap
+
+Insert | type: a, time: 10.00
+Insert | type: a, time: 7.00
+Insert | type: d, time: 11.00
+Insert | type: a, time: 12.00
+Insert | type: d, time: 9.00
+
+- Print FEL -
+Length: 5
+
+Event    0 | Type: a, Time 7.00
+Event    1 | Type: d, Time 9.00
+Event    2 | Type: a, Time 10.00
+Event    3 | Type: d, Time 11.00
+Event    4 | Type: a, Time 12.00
+
+- End of Print FEL -
+Delete | type: a, time: 7.00
+Delete | type: a, time: 12.00
+Delete | type: d, time: 9.00
+
+- Print FEL -
+Length: 2
+
+Event    0 | Type: a, Time 10.00
+Event    1 | Type: d, Time 11.00
+
+- End of Print FEL -
+Checked: OK
+
+
+--- END TEST 3 ---
+
+
+
+
+--- SUMMARY ---
+
+Test 1: OK
+Test 2: OK
+Test 3: OK
+All: OK
+0
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    539.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 94
+		       completed		 94
+		       mean response		 44.93
+		Type 2 submitted		 111
+		       completed		 111
+		       mean response		 36.22
+		Type 3 submitted		 65
+		       completed		 65
+		       mean response		 54.19
+	Processors
+		Type S utilization		 0.54
+		       max queue length		 5
+		Type M utilization		 0.72
+		       max queue length		 8
+		Type N utilization		 0.50
+		       max queue length		 3
+		Type V utilization		 0.52
+		       max queue length		 3
+		Type G utilization		 0.59
+		       max queue length		 5
+		Type F utilization		 0.70
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+1
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    536.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 107
+		       completed		 107
+		       mean response		 46.09
+		Type 2 submitted		 83
+		       completed		 83
+		       mean response		 34.34
+		Type 3 submitted		 57
+		       completed		 57
+		       mean response		 57.28
+	Processors
+		Type S utilization		 0.56
+		       max queue length		 9
+		Type M utilization		 0.67
+		       max queue length		 4
+		Type N utilization		 0.54
+		       max queue length		 3
+		Type V utilization		 0.43
+		       max queue length		 4
+		Type G utilization		 0.48
+		       max queue length		 4
+		Type F utilization		 0.70
+		       max queue length		 7
+
+--- END SUPER COMPUTER ---
+2
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    534.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 88
+		       completed		 88
+		       mean response		 44.12
+		Type 2 submitted		 88
+		       completed		 88
+		       mean response		 33.09
+		Type 3 submitted		 57
+		       completed		 57
+		       mean response		 52.27
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 2
+		Type M utilization		 0.62
+		       max queue length		 6
+		Type N utilization		 0.48
+		       max queue length		 3
+		Type V utilization		 0.42
+		       max queue length		 2
+		Type G utilization		 0.49
+		       max queue length		 4
+		Type F utilization		 0.64
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+3
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    529.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 89
+		       completed		 89
+		       mean response		 44.62
+		Type 2 submitted		 115
+		       completed		 115
+		       mean response		 35.26
+		Type 3 submitted		 50
+		       completed		 50
+		       mean response		 54.09
+	Processors
+		Type S utilization		 0.47
+		       max queue length		 3
+		Type M utilization		 0.75
+		       max queue length		 8
+		Type N utilization		 0.47
+		       max queue length		 5
+		Type V utilization		 0.49
+		       max queue length		 3
+		Type G utilization		 0.54
+		       max queue length		 4
+		Type F utilization		 0.63
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+4
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    541.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 105
+		       completed		 105
+		       mean response		 48.68
+		Type 2 submitted		 119
+		       completed		 119
+		       mean response		 39.04
+		Type 3 submitted		 47
+		       completed		 47
+		       mean response		 54.13
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 4
+		Type M utilization		 0.80
+		       max queue length		 11
+		Type N utilization		 0.50
+		       max queue length		 3
+		Type V utilization		 0.47
+		       max queue length		 2
+		Type G utilization		 0.59
+		       max queue length		 4
+		Type F utilization		 0.63
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+5
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 80
+		       completed		 80
+		       mean response		 43.73
+		Type 2 submitted		 129
+		       completed		 129
+		       mean response		 35.68
+		Type 3 submitted		 50
+		       completed		 50
+		       mean response		 54.36
+	Processors
+		Type S utilization		 0.44
+		       max queue length		 0
+		Type M utilization		 0.76
+		       max queue length		 6
+		Type N utilization		 0.45
+		       max queue length		 1
+		Type V utilization		 0.55
+		       max queue length		 3
+		Type G utilization		 0.63
+		       max queue length		 4
+		Type F utilization		 0.58
+		       max queue length		 3
+
+--- END SUPER COMPUTER ---
+6
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    538.8
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 99
+		       completed		 99
+		       mean response		 45.08
+		Type 2 submitted		 96
+		       completed		 96
+		       mean response		 33.58
+		Type 3 submitted		 56
+		       completed		 56
+		       mean response		 52.59
+	Processors
+		Type S utilization		 0.52
+		       max queue length		 2
+		Type M utilization		 0.70
+		       max queue length		 6
+		Type N utilization		 0.51
+		       max queue length		 2
+		Type V utilization		 0.43
+		       max queue length		 3
+		Type G utilization		 0.51
+		       max queue length		 3
+		Type F utilization		 0.69
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+7
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    520.3
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 85
+		       completed		 85
+		       mean response		 44.72
+		Type 2 submitted		 115
+		       completed		 115
+		       mean response		 36.96
+		Type 3 submitted		 59
+		       completed		 59
+		       mean response		 53.77
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 1
+		Type M utilization		 0.76
+		       max queue length		 5
+		Type N utilization		 0.48
+		       max queue length		 4
+		Type V utilization		 0.53
+		       max queue length		 3
+		Type G utilization		 0.62
+		       max queue length		 7
+		Type F utilization		 0.67
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+8
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    538.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 90
+		       completed		 90
+		       mean response		 45.29
+		Type 2 submitted		 87
+		       completed		 87
+		       mean response		 33.36
+		Type 3 submitted		 52
+		       completed		 52
+		       mean response		 53.16
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 2
+		Type M utilization		 0.63
+		       max queue length		 5
+		Type N utilization		 0.47
+		       max queue length		 2
+		Type V utilization		 0.40
+		       max queue length		 4
+		Type G utilization		 0.48
+		       max queue length		 2
+		Type F utilization		 0.65
+		       max queue length		 3
+
+--- END SUPER COMPUTER ---
+9
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    530.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 45.90
+		Type 2 submitted		 87
+		       completed		 87
+		       mean response		 33.81
+		Type 3 submitted		 55
+		       completed		 55
+		       mean response		 54.17
+	Processors
+		Type S utilization		 0.55
+		       max queue length		 5
+		Type M utilization		 0.68
+		       max queue length		 4
+		Type N utilization		 0.52
+		       max queue length		 6
+		Type V utilization		 0.41
+		       max queue length		 2
+		Type G utilization		 0.51
+		       max queue length		 2
+		Type F utilization		 0.69
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+10
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    538.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 90
+		       completed		 90
+		       mean response		 44.56
+		Type 2 submitted		 109
+		       completed		 109
+		       mean response		 32.11
+		Type 3 submitted		 52
+		       completed		 52
+		       mean response		 54.16
+	Processors
+		Type S utilization		 0.48
+		       max queue length		 2
+		Type M utilization		 0.71
+		       max queue length		 4
+		Type N utilization		 0.48
+		       max queue length		 2
+		Type V utilization		 0.47
+		       max queue length		 2
+		Type G utilization		 0.54
+		       max queue length		 3
+		Type F utilization		 0.63
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+11
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    522.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 87
+		       completed		 87
+		       mean response		 47.47
+		Type 2 submitted		 102
+		       completed		 102
+		       mean response		 33.48
+		Type 3 submitted		 50
+		       completed		 50
+		       mean response		 54.66
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 4
+		Type M utilization		 0.69
+		       max queue length		 6
+		Type N utilization		 0.46
+		       max queue length		 2
+		Type V utilization		 0.46
+		       max queue length		 2
+		Type G utilization		 0.54
+		       max queue length		 2
+		Type F utilization		 0.62
+		       max queue length		 8
+
+--- END SUPER COMPUTER ---
+12
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    533.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 76
+		       completed		 76
+		       mean response		 46.59
+		Type 2 submitted		 93
+		       completed		 93
+		       mean response		 31.72
+		Type 3 submitted		 58
+		       completed		 58
+		       mean response		 53.82
+	Processors
+		Type S utilization		 0.46
+		       max queue length		 5
+		Type M utilization		 0.60
+		       max queue length		 3
+		Type N utilization		 0.45
+		       max queue length		 3
+		Type V utilization		 0.42
+		       max queue length		 3
+		Type G utilization		 0.51
+		       max queue length		 2
+		Type F utilization		 0.60
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+13
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 83
+		       completed		 83
+		       mean response		 44.82
+		Type 2 submitted		 101
+		       completed		 101
+		       mean response		 33.83
+		Type 3 submitted		 47
+		       completed		 47
+		       mean response		 54.51
+	Processors
+		Type S utilization		 0.46
+		       max queue length		 4
+		Type M utilization		 0.64
+		       max queue length		 6
+		Type N utilization		 0.44
+		       max queue length		 3
+		Type V utilization		 0.45
+		       max queue length		 3
+		Type G utilization		 0.49
+		       max queue length		 6
+		Type F utilization		 0.57
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+14
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    519.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 98
+		       completed		 98
+		       mean response		 43.61
+		Type 2 submitted		 93
+		       completed		 93
+		       mean response		 32.96
+		Type 3 submitted		 48
+		       completed		 48
+		       mean response		 52.85
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 2
+		Type M utilization		 0.69
+		       max queue length		 4
+		Type N utilization		 0.49
+		       max queue length		 2
+		Type V utilization		 0.40
+		       max queue length		 2
+		Type G utilization		 0.50
+		       max queue length		 3
+		Type F utilization		 0.67
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+15
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    528.3
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 90
+		       completed		 90
+		       mean response		 44.38
+		Type 2 submitted		 93
+		       completed		 93
+		       mean response		 34.24
+		Type 3 submitted		 53
+		       completed		 53
+		       mean response		 52.25
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 1
+		Type M utilization		 0.68
+		       max queue length		 5
+		Type N utilization		 0.47
+		       max queue length		 2
+		Type V utilization		 0.40
+		       max queue length		 1
+		Type G utilization		 0.52
+		       max queue length		 1
+		Type F utilization		 0.63
+		       max queue length		 3
+
+--- END SUPER COMPUTER ---
+16
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    529.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 96
+		       completed		 96
+		       mean response		 43.91
+		Type 2 submitted		 111
+		       completed		 111
+		       mean response		 34.34
+		Type 3 submitted		 55
+		       completed		 55
+		       mean response		 53.60
+	Processors
+		Type S utilization		 0.52
+		       max queue length		 4
+		Type M utilization		 0.73
+		       max queue length		 6
+		Type N utilization		 0.51
+		       max queue length		 2
+		Type V utilization		 0.47
+		       max queue length		 2
+		Type G utilization		 0.59
+		       max queue length		 4
+		Type F utilization		 0.65
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+17
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    532.8
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 83
+		       completed		 83
+		       mean response		 44.25
+		Type 2 submitted		 114
+		       completed		 114
+		       mean response		 34.00
+		Type 3 submitted		 51
+		       completed		 51
+		       mean response		 52.15
+	Processors
+		Type S utilization		 0.46
+		       max queue length		 3
+		Type M utilization		 0.70
+		       max queue length		 8
+		Type N utilization		 0.43
+		       max queue length		 1
+		Type V utilization		 0.48
+		       max queue length		 3
+		Type G utilization		 0.55
+		       max queue length		 5
+		Type F utilization		 0.58
+		       max queue length		 3
+
+--- END SUPER COMPUTER ---
+18
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    530.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 91
+		       completed		 91
+		       mean response		 45.12
+		Type 2 submitted		 88
+		       completed		 88
+		       mean response		 32.22
+		Type 3 submitted		 63
+		       completed		 63
+		       mean response		 52.96
+	Processors
+		Type S utilization		 0.54
+		       max queue length		 3
+		Type M utilization		 0.62
+		       max queue length		 3
+		Type N utilization		 0.53
+		       max queue length		 4
+		Type V utilization		 0.44
+		       max queue length		 2
+		Type G utilization		 0.51
+		       max queue length		 2
+		Type F utilization		 0.71
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+19
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    522.9
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 91
+		       completed		 91
+		       mean response		 45.23
+		Type 2 submitted		 112
+		       completed		 112
+		       mean response		 34.22
+		Type 3 submitted		 55
+		       completed		 55
+		       mean response		 54.57
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 4
+		Type M utilization		 0.76
+		       max queue length		 4
+		Type N utilization		 0.50
+		       max queue length		 2
+		Type V utilization		 0.49
+		       max queue length		 2
+		Type G utilization		 0.59
+		       max queue length		 4
+		Type F utilization		 0.65
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+20
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 99
+		       completed		 99
+		       mean response		 49.43
+		Type 2 submitted		 106
+		       completed		 106
+		       mean response		 37.63
+		Type 3 submitted		 66
+		       completed		 66
+		       mean response		 56.29
+	Processors
+		Type S utilization		 0.57
+		       max queue length		 4
+		Type M utilization		 0.74
+		       max queue length		 10
+		Type N utilization		 0.56
+		       max queue length		 3
+		Type V utilization		 0.49
+		       max queue length		 4
+		Type G utilization		 0.59
+		       max queue length		 5
+		Type F utilization		 0.77
+		       max queue length		 7
+
+--- END SUPER COMPUTER ---
+21
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 47.73
+		Type 2 submitted		 110
+		       completed		 110
+		       mean response		 36.36
+		Type 3 submitted		 53
+		       completed		 53
+		       mean response		 54.06
+	Processors
+		Type S utilization		 0.53
+		       max queue length		 4
+		Type M utilization		 0.78
+		       max queue length		 9
+		Type N utilization		 0.52
+		       max queue length		 4
+		Type V utilization		 0.49
+		       max queue length		 3
+		Type G utilization		 0.55
+		       max queue length		 4
+		Type F utilization		 0.69
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+22
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    561.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 121
+		       completed		 121
+		       mean response		 55.93
+		Type 2 submitted		 83
+		       completed		 83
+		       mean response		 35.51
+		Type 3 submitted		 66
+		       completed		 66
+		       mean response		 65.61
+	Processors
+		Type S utilization		 0.59
+		       max queue length		 9
+		Type M utilization		 0.69
+		       max queue length		 8
+		Type N utilization		 0.58
+		       max queue length		 5
+		Type V utilization		 0.40
+		       max queue length		 3
+		Type G utilization		 0.51
+		       max queue length		 2
+		Type F utilization		 0.80
+		       max queue length		 15
+
+--- END SUPER COMPUTER ---
+23
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    524.9
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 95
+		       completed		 95
+		       mean response		 45.76
+		Type 2 submitted		 101
+		       completed		 101
+		       mean response		 35.86
+		Type 3 submitted		 56
+		       completed		 56
+		       mean response		 51.74
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 2
+		Type M utilization		 0.71
+		       max queue length		 7
+		Type N utilization		 0.51
+		       max queue length		 2
+		Type V utilization		 0.46
+		       max queue length		 2
+		Type G utilization		 0.55
+		       max queue length		 3
+		Type F utilization		 0.69
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+24
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    517.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 108
+		       completed		 108
+		       mean response		 46.04
+		Type 2 submitted		 87
+		       completed		 87
+		       mean response		 33.06
+		Type 3 submitted		 43
+		       completed		 43
+		       mean response		 54.40
+	Processors
+		Type S utilization		 0.54
+		       max queue length		 2
+		Type M utilization		 0.71
+		       max queue length		 5
+		Type N utilization		 0.52
+		       max queue length		 2
+		Type V utilization		 0.38
+		       max queue length		 3
+		Type G utilization		 0.47
+		       max queue length		 2
+		Type F utilization		 0.71
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+25
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    519.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 83
+		       completed		 83
+		       mean response		 43.39
+		Type 2 submitted		 104
+		       completed		 104
+		       mean response		 33.27
+		Type 3 submitted		 60
+		       completed		 60
+		       mean response		 53.45
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 2
+		Type M utilization		 0.67
+		       max queue length		 4
+		Type N utilization		 0.48
+		       max queue length		 2
+		Type V utilization		 0.49
+		       max queue length		 3
+		Type G utilization		 0.58
+		       max queue length		 2
+		Type F utilization		 0.66
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+26
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    537.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 100
+		       completed		 100
+		       mean response		 45.87
+		Type 2 submitted		 105
+		       completed		 105
+		       mean response		 35.70
+		Type 3 submitted		 46
+		       completed		 46
+		       mean response		 53.60
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 4
+		Type M utilization		 0.73
+		       max queue length		 11
+		Type N utilization		 0.49
+		       max queue length		 2
+		Type V utilization		 0.43
+		       max queue length		 2
+		Type G utilization		 0.51
+		       max queue length		 4
+		Type F utilization		 0.65
+		       max queue length		 3
+
+--- END SUPER COMPUTER ---
+27
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    536.8
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 47.92
+		Type 2 submitted		 109
+		       completed		 109
+		       mean response		 35.19
+		Type 3 submitted		 68
+		       completed		 68
+		       mean response		 55.29
+	Processors
+		Type S utilization		 0.58
+		       max queue length		 6
+		Type M utilization		 0.73
+		       max queue length		 6
+		Type N utilization		 0.56
+		       max queue length		 4
+		Type V utilization		 0.50
+		       max queue length		 3
+		Type G utilization		 0.62
+		       max queue length		 8
+		Type F utilization		 0.73
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+28
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    537.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 43.36
+		Type 2 submitted		 78
+		       completed		 78
+		       mean response		 33.90
+		Type 3 submitted		 50
+		       completed		 50
+		       mean response		 53.66
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 2
+		Type M utilization		 0.64
+		       max queue length		 4
+		Type N utilization		 0.49
+		       max queue length		 3
+		Type V utilization		 0.36
+		       max queue length		 2
+		Type G utilization		 0.44
+		       max queue length		 1
+		Type F utilization		 0.67
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+29
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    558.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 111
+		       completed		 111
+		       mean response		 51.86
+		Type 2 submitted		 104
+		       completed		 104
+		       mean response		 36.17
+		Type 3 submitted		 74
+		       completed		 74
+		       mean response		 61.21
+	Processors
+		Type S utilization		 0.60
+		       max queue length		 7
+		Type M utilization		 0.72
+		       max queue length		 10
+		Type N utilization		 0.58
+		       max queue length		 6
+		Type V utilization		 0.49
+		       max queue length		 3
+		Type G utilization		 0.58
+		       max queue length		 5
+		Type F utilization		 0.77
+		       max queue length		 10
+
+--- END SUPER COMPUTER ---
+30
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    537.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 84
+		       completed		 84
+		       mean response		 46.21
+		Type 2 submitted		 102
+		       completed		 102
+		       mean response		 34.90
+		Type 3 submitted		 57
+		       completed		 57
+		       mean response		 52.11
+	Processors
+		Type S utilization		 0.46
+		       max queue length		 5
+		Type M utilization		 0.67
+		       max queue length		 8
+		Type N utilization		 0.46
+		       max queue length		 2
+		Type V utilization		 0.45
+		       max queue length		 3
+		Type G utilization		 0.54
+		       max queue length		 4
+		Type F utilization		 0.61
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+31
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    528.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 45.78
+		Type 2 submitted		 101
+		       completed		 101
+		       mean response		 32.95
+		Type 3 submitted		 63
+		       completed		 63
+		       mean response		 54.43
+	Processors
+		Type S utilization		 0.57
+		       max queue length		 3
+		Type M utilization		 0.73
+		       max queue length		 4
+		Type N utilization		 0.54
+		       max queue length		 4
+		Type V utilization		 0.48
+		       max queue length		 3
+		Type G utilization		 0.55
+		       max queue length		 3
+		Type F utilization		 0.73
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+32
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    532.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 110
+		       completed		 110
+		       mean response		 48.34
+		Type 2 submitted		 93
+		       completed		 93
+		       mean response		 35.80
+		Type 3 submitted		 42
+		       completed		 42
+		       mean response		 53.70
+	Processors
+		Type S utilization		 0.52
+		       max queue length		 5
+		Type M utilization		 0.72
+		       max queue length		 10
+		Type N utilization		 0.50
+		       max queue length		 6
+		Type V utilization		 0.36
+		       max queue length		 1
+		Type G utilization		 0.47
+		       max queue length		 1
+		Type F utilization		 0.67
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+33
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    525.2
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 95
+		       completed		 95
+		       mean response		 44.80
+		Type 2 submitted		 103
+		       completed		 103
+		       mean response		 32.94
+		Type 3 submitted		 65
+		       completed		 65
+		       mean response		 51.51
+	Processors
+		Type S utilization		 0.54
+		       max queue length		 2
+		Type M utilization		 0.71
+		       max queue length		 5
+		Type N utilization		 0.54
+		       max queue length		 3
+		Type V utilization		 0.49
+		       max queue length		 2
+		Type G utilization		 0.57
+		       max queue length		 3
+		Type F utilization		 0.69
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+34
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    529.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 86
+		       completed		 86
+		       mean response		 45.69
+		Type 2 submitted		 95
+		       completed		 95
+		       mean response		 33.00
+		Type 3 submitted		 60
+		       completed		 60
+		       mean response		 54.05
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 3
+		Type M utilization		 0.63
+		       max queue length		 5
+		Type N utilization		 0.50
+		       max queue length		 6
+		Type V utilization		 0.45
+		       max queue length		 2
+		Type G utilization		 0.53
+		       max queue length		 2
+		Type F utilization		 0.64
+		       max queue length		 6
+
+--- END SUPER COMPUTER ---
+35
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    523.8
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 89
+		       completed		 89
+		       mean response		 42.99
+		Type 2 submitted		 97
+		       completed		 97
+		       mean response		 34.09
+		Type 3 submitted		 41
+		       completed		 41
+		       mean response		 52.91
+	Processors
+		Type S utilization		 0.44
+		       max queue length		 2
+		Type M utilization		 0.68
+		       max queue length		 7
+		Type N utilization		 0.44
+		       max queue length		 2
+		Type V utilization		 0.42
+		       max queue length		 3
+		Type G utilization		 0.48
+		       max queue length		 2
+		Type F utilization		 0.59
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+36
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    532.3
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 82
+		       completed		 82
+		       mean response		 45.99
+		Type 2 submitted		 95
+		       completed		 95
+		       mean response		 34.02
+		Type 3 submitted		 46
+		       completed		 46
+		       mean response		 53.64
+	Processors
+		Type S utilization		 0.44
+		       max queue length		 4
+		Type M utilization		 0.67
+		       max queue length		 4
+		Type N utilization		 0.43
+		       max queue length		 2
+		Type V utilization		 0.39
+		       max queue length		 2
+		Type G utilization		 0.49
+		       max queue length		 4
+		Type F utilization		 0.58
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+37
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    520.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 97
+		       completed		 97
+		       mean response		 45.25
+		Type 2 submitted		 96
+		       completed		 96
+		       mean response		 32.78
+		Type 3 submitted		 63
+		       completed		 63
+		       mean response		 54.46
+	Processors
+		Type S utilization		 0.56
+		       max queue length		 7
+		Type M utilization		 0.70
+		       max queue length		 4
+		Type N utilization		 0.55
+		       max queue length		 4
+		Type V utilization		 0.45
+		       max queue length		 3
+		Type G utilization		 0.56
+		       max queue length		 2
+		Type F utilization		 0.71
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+38
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    534.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 96
+		       completed		 96
+		       mean response		 45.97
+		Type 2 submitted		 98
+		       completed		 98
+		       mean response		 34.33
+		Type 3 submitted		 55
+		       completed		 55
+		       mean response		 54.31
+	Processors
+		Type S utilization		 0.53
+		       max queue length		 2
+		Type M utilization		 0.73
+		       max queue length		 7
+		Type N utilization		 0.49
+		       max queue length		 2
+		Type V utilization		 0.42
+		       max queue length		 3
+		Type G utilization		 0.53
+		       max queue length		 2
+		Type F utilization		 0.69
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+39
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    524.8
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 92
+		       completed		 92
+		       mean response		 44.38
+		Type 2 submitted		 84
+		       completed		 84
+		       mean response		 32.85
+		Type 3 submitted		 68
+		       completed		 68
+		       mean response		 53.56
+	Processors
+		Type S utilization		 0.55
+		       max queue length		 3
+		Type M utilization		 0.62
+		       max queue length		 5
+		Type N utilization		 0.54
+		       max queue length		 3
+		Type V utilization		 0.44
+		       max queue length		 2
+		Type G utilization		 0.53
+		       max queue length		 3
+		Type F utilization		 0.70
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+40
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    522.7
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 78
+		       completed		 78
+		       mean response		 42.75
+		Type 2 submitted		 91
+		       completed		 91
+		       mean response		 34.12
+		Type 3 submitted		 54
+		       completed		 54
+		       mean response		 50.90
+	Processors
+		Type S utilization		 0.45
+		       max queue length		 3
+		Type M utilization		 0.61
+		       max queue length		 4
+		Type N utilization		 0.43
+		       max queue length		 1
+		Type V utilization		 0.42
+		       max queue length		 2
+		Type G utilization		 0.52
+		       max queue length		 3
+		Type F utilization		 0.61
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+41
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    532.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 87
+		       completed		 87
+		       mean response		 48.41
+		Type 2 submitted		 99
+		       completed		 99
+		       mean response		 36.30
+		Type 3 submitted		 58
+		       completed		 58
+		       mean response		 54.73
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 3
+		Type M utilization		 0.64
+		       max queue length		 12
+		Type N utilization		 0.49
+		       max queue length		 4
+		Type V utilization		 0.46
+		       max queue length		 4
+		Type G utilization		 0.53
+		       max queue length		 6
+		Type F utilization		 0.65
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+42
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    531.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 96
+		       completed		 96
+		       mean response		 45.65
+		Type 2 submitted		 101
+		       completed		 101
+		       mean response		 32.98
+		Type 3 submitted		 60
+		       completed		 60
+		       mean response		 51.30
+	Processors
+		Type S utilization		 0.53
+		       max queue length		 2
+		Type M utilization		 0.72
+		       max queue length		 6
+		Type N utilization		 0.52
+		       max queue length		 3
+		Type V utilization		 0.46
+		       max queue length		 2
+		Type G utilization		 0.52
+		       max queue length		 3
+		Type F utilization		 0.67
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+43
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.1
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 93
+		       completed		 93
+		       mean response		 45.16
+		Type 2 submitted		 117
+		       completed		 117
+		       mean response		 34.94
+		Type 3 submitted		 53
+		       completed		 53
+		       mean response		 53.93
+	Processors
+		Type S utilization		 0.51
+		       max queue length		 4
+		Type M utilization		 0.75
+		       max queue length		 9
+		Type N utilization		 0.49
+		       max queue length		 2
+		Type V utilization		 0.52
+		       max queue length		 2
+		Type G utilization		 0.60
+		       max queue length		 3
+		Type F utilization		 0.65
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+44
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    538.7
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 101
+		       completed		 101
+		       mean response		 46.05
+		Type 2 submitted		 90
+		       completed		 90
+		       mean response		 34.11
+		Type 3 submitted		 42
+		       completed		 42
+		       mean response		 54.74
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 3
+		Type M utilization		 0.71
+		       max queue length		 4
+		Type N utilization		 0.46
+		       max queue length		 3
+		Type V utilization		 0.37
+		       max queue length		 3
+		Type G utilization		 0.46
+		       max queue length		 2
+		Type F utilization		 0.65
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+45
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    527.7
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 99
+		       completed		 99
+		       mean response		 49.05
+		Type 2 submitted		 106
+		       completed		 106
+		       mean response		 35.46
+		Type 3 submitted		 52
+		       completed		 52
+		       mean response		 55.25
+	Processors
+		Type S utilization		 0.52
+		       max queue length		 3
+		Type M utilization		 0.77
+		       max queue length		 6
+		Type N utilization		 0.50
+		       max queue length		 3
+		Type V utilization		 0.46
+		       max queue length		 3
+		Type G utilization		 0.57
+		       max queue length		 5
+		Type F utilization		 0.68
+		       max queue length		 8
+
+--- END SUPER COMPUTER ---
+46
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    529.5
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 83
+		       completed		 83
+		       mean response		 47.33
+		Type 2 submitted		 101
+		       completed		 101
+		       mean response		 33.92
+		Type 3 submitted		 60
+		       completed		 60
+		       mean response		 52.23
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 3
+		Type M utilization		 0.67
+		       max queue length		 7
+		Type N utilization		 0.46
+		       max queue length		 2
+		Type V utilization		 0.47
+		       max queue length		 2
+		Type G utilization		 0.55
+		       max queue length		 3
+		Type F utilization		 0.63
+		       max queue length		 5
+
+--- END SUPER COMPUTER ---
+47
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    530.6
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 102
+		       completed		 102
+		       mean response		 44.98
+		Type 2 submitted		 106
+		       completed		 106
+		       mean response		 35.35
+		Type 3 submitted		 54
+		       completed		 54
+		       mean response		 52.62
+	Processors
+		Type S utilization		 0.53
+		       max queue length		 2
+		Type M utilization		 0.77
+		       max queue length		 8
+		Type N utilization		 0.52
+		       max queue length		 1
+		Type V utilization		 0.47
+		       max queue length		 3
+		Type G utilization		 0.53
+		       max queue length		 5
+		Type F utilization		 0.71
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+48
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    528.4
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 92
+		       completed		 92
+		       mean response		 44.94
+		Type 2 submitted		 108
+		       completed		 108
+		       mean response		 35.49
+		Type 3 submitted		 54
+		       completed		 54
+		       mean response		 53.70
+	Processors
+		Type S utilization		 0.50
+		       max queue length		 3
+		Type M utilization		 0.73
+		       max queue length		 8
+		Type N utilization		 0.49
+		       max queue length		 3
+		Type V utilization		 0.47
+		       max queue length		 2
+		Type G utilization		 0.57
+		       max queue length		 4
+		Type F utilization		 0.66
+		       max queue length		 4
+
+--- END SUPER COMPUTER ---
+49
+
+--- START OF SUPER COMP ---
+Execution parameters
+	Process type table
+
+	Type	Prob
+	1	0.377500
+	2	0.779100
+	3	1.000000
+
+	Process mean interarrival time	      1.9 minutes
+
+	Processor S, Mean service time	     14.6 minutes
+	Processor S,   SD service time	      2.8 minutes
+
+	Processor M, Mean service time	     11.5 minutes
+	Processor M,   SD service time	      3.6 minutes
+
+	Processor N, Mean service time	     10.6 minutes
+	Processor N,   SD service time	      2.1 minutes
+
+	Processor V, Mean service time	      6.2 minutes
+	Processor V,   SD service time	      2.1 minutes
+
+	Processor G, Mean service time	     14.6 minutes
+	Processor G,   SD service time	      3.7 minutes
+
+	Processor F, Mean service time	      4.7 minutes
+	Processor F,   SD service time	      1.3 minutes
+
+	Simulation run length			    480.0
+
+	Processors available
+		Type S		        8
+		Type M		        6
+		Type N		        6
+		Type V		        4
+		Type G		        8
+		Type F		        2
+
+Simulation end time				    535.0
+
+
+Calculated Statistics
+	Jobs
+		Type 1 submitted		 98
+		       completed		 98
+		       mean response		 50.39
+		Type 2 submitted		 99
+		       completed		 99
+		       mean response		 37.23
+		Type 3 submitted		 47
+		       completed		 47
+		       mean response		 55.39
+	Processors
+		Type S utilization		 0.49
+		       max queue length		 6
+		Type M utilization		 0.73
+		       max queue length		 10
+		Type N utilization		 0.49
+		       max queue length		 5
+		Type V utilization		 0.42
+		       max queue length		 3
+		Type G utilization		 0.49
+		       max queue length		 3
+		Type F utilization		 0.65
+		       max queue length		 7
+
+--- END SUPER COMPUTER ---
+
+
+ 50 trails
+
+
+Mean Calculated Statistics
+	Jobs
+		Type 1 mean submitted		 94
+		       mean completed		 94
+		       mean mean response	 46.01
+		       mean response c.i.  [	 45.33, 46.69	]
+		Type 2 mean submitted		 100
+		       mean completed		 100
+		       mean mean response	 34.49
+		       mean response c.i.  [	 34.06, 34.93	]
+		Type 3 mean submitted		 55
+		       mean completed		 55
+		       mean mean response	 54.09
+		       mean response c.i.  [	 53.43, 54.75	]
+	Processors
+		Type S mean utilization		 0.51
+		       mean max queue length	 3
+		Type M mean utilization		 0.70
+		       mean max queue length	 6
+		Type N mean utilization		 0.50
+		       mean max queue length	 2
+		Type V mean utilization		 0.45
+		       mean max queue length	 2
+		Type G mean utilization		 0.54
+		       mean max queue length	 3
+		Type F mean utilization		 0.66
+		       mean max queue length	 5

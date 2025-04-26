@@ -1,0 +1,50 @@
+Kaden Gryphon
+Program 5
+11.30.2022
+
+Job type:
+	I used an empirical distribution with a 
+	0.3775 chance of type 1
+	0.4016 chance of type 2
+	0.2209 chance of type 3
+	
+	with cumulative chances
+	0
+	0.3775
+	0.7791
+	1
+	
+job arrival:
+	I used an exponential distribution with
+	mean 1.9353
+	lambda 0.5167
+	
+
+Processors:
+
+	I used normal distribution for all the processors
+	
+Processor S:
+	mean: 	14.5713
+	sd:	2.7979
+	
+Processor M:
+	mean:	11.4586
+	sd:	3.6414
+	
+Processor N:
+	mean:	10.6176
+	sd:	2.0822
+	
+Processor V:
+	mean:	6.1826
+	sd:	2.0769
+	
+Processor G:
+	mean:	14.6236
+	sd:	3.7486
+	
+Processor F:
+	mean:	4.7322
+	sd:	1.2845
+	
